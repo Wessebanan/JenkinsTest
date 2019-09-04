@@ -1,10 +1,10 @@
 #include "pch.h"
-#include "../JenkinsTest/TestHeader.h"
+#include "..//JenkinsTest/TestHeader.h"
 TEST(TestCaseName, TestName) {
   EXPECT_EQ(1, 1);
   EXPECT_TRUE(true);
 }
-TEST(JenkinsCase, FunctionTest)
+TEST(helloWorld, testfunctiontest)
 {
-	EXPECT_EQ(1, testFunction());
+	EXPECT_EQ(testFunction(), 1);
 }
